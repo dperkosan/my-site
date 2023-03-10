@@ -42,7 +42,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - `app` is the folder where we will put all our pages
 - `api` directory will be used for backend API routes
 - every page need a folder with a `page.tsx` file in it. If you need another segment, you will create new folder inside of it.
-- install prettier and create `.prettierrc` file:
+- when creating new project in Next.js, install prettier and create `.prettierrc` file:
 
 ```bash
 npm install --save-dev prettier
