@@ -51,3 +51,4 @@ npm install --save-dev prettier
 - dynamic pages are added as `[slug]` this folder template
 - catching every possible slug (with `/` also, like: `/title-1/custom/title`) is done with folder name: `[...slug]`
 - route grouping is done when the folder is called for example: `app/(marketing)/home/page.tsx`, now the URL is: `/home`
+- we can create layout files in every route. If we use route grouping we could use multiple root layouts.
