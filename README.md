@@ -47,3 +47,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ```bash
 npm install --save-dev prettier
 ```
+
+- dynamic pages are added as `[slug]` this folder template
+- catching every possible slug (with `/` also, like: `/title-1/custom/title`) is done with folder name: `[...slug]`
