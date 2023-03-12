@@ -52,3 +52,4 @@ npm install --save-dev prettier
 - catching every possible slug (with `/` also, like: `/title-1/custom/title`) is done with folder name: `[...slug]`
 - route grouping is done when the folder is called for example: `app/(marketing)/home/page.tsx`, now the URL is: `/home`
 - we can create layout files in every route. If we use route grouping we could use multiple root layouts.
+- navigation: link component `<Link>` -> it doesn't re-render everything
