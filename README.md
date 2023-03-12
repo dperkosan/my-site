@@ -53,3 +53,9 @@ npm install --save-dev prettier
 - route grouping is done when the folder is called for example: `app/(marketing)/home/page.tsx`, now the URL is: `/home`
 - we can create layout files in every route. If we use route grouping we could use multiple root layouts.
 - navigation: link component `<Link>` -> it doesn't re-render everything
+- all components of Next.js are by default server components. `'use client'` is used to tell that it is client component. Programmatic routing works only on client components (because them you have access to the `window`)
+- server component != server side rendering
+- big components need to be server components and small ones client components
+- server components never leave server. It doesn't keep track of the state. JS is not shipped to the client. It is streamed to the client
+- SSR - renders on server and HTML and serialized data is sent to the browser. Client picks it up and re-render the same thing.
+- you should always use server components until you need client side interaction or 3rd party lib
