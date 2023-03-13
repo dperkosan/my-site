@@ -59,3 +59,4 @@ npm install --save-dev prettier
 - server components never leave server. It doesn't keep track of the state. JS is not shipped to the client. It is streamed to the client
 - SSR - renders on server and HTML and serialized data is sent to the browser. Client picks it up and re-render the same thing.
 - you should always use server components until you need client side interaction or 3rd party lib
+- if component need hooks (useState useEffect) then you need to use client components
