@@ -1,9 +1,9 @@
-const delay = (time) =>
+const delay = (time: number) =>
   new Promise((resolve) => {
     setTimeout(() => resolve(1), time);
   });
 
-const getData = async (slug) => {
+const getData = async (slug: string) => {
   const post = await delay(5000);
   return { slug };
 };
